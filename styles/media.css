@@ -1,0 +1,39 @@
+@media(max-width:1140px) {
+  .header-content-img {
+    width: 100%;
+  }
+
+  .main-box {
+    gap: 20px;
+  }
+}
+
+@media(max-width:850px) {
+  .header-list {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+@media(max-width:650px) {
+  .footer-box {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .main-box {
+    flex-wrap: wrap;
+  }
+
+  .main-box-right {
+    max-width: 730px;
+    width: 100%;
+    padding: 50px 24px 50px 40px;
+  }
+
+  .main-box-left {
+    padding: 50px 40px 50px 40px;
+  }
+}
